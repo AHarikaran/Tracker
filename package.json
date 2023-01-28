@@ -1,0 +1,29 @@
+{
+  "name": "tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch src -e ejs,js src/index.js",
+    "initdb": "node tools/initdb.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/bell": "^12.3.0",
+    "@hapi/boom": "^9.1.4",
+    "@hapi/cookie": "^11.0.2",
+    "@hapi/hapi": "^21.1.0",
+    "@hapi/inert": "^6.0.5",
+    "@hapi/joi": "^17.1.1",
+    "@hapi/vision": "^6.1.0",
+    "dotenv": "^8.6.0",
+    "ejs": "^3.1.8",
+    "hapi-version": "^2.1.1",
+    "postgres": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
